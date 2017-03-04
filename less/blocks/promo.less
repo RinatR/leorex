@@ -1,0 +1,43 @@
+.promo {
+  padding-top: 30px;
+  height: 542px;
+  background-image: linear-gradient(#e9e4d6 0px, #e9e4d6 522px,
+    #ffffff 522px, #ffffff 572px);
+}
+
+.promo__inner {
+  display: flex;
+  flex-flow: row wrap;
+  .layout-center();
+}
+
+.promo__slider {
+  width: 830px;
+  min-height: 442px;
+  background-image: url("../img/promo-slider.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 830px 442px;
+}
+
+.promo__features {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.promo__features-item {
+  width: 25%;
+  padding: 34px 0;
+  padding-left: 95px;
+  box-sizing: border-box;
+  background-color: @color-secondary;
+}
+
+.promo__features-title {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1.05px;
+}
