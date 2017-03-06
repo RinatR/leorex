@@ -1,0 +1,77 @@
+.socials {
+  width: 277px;
+  padding-left: 140px;
+  box-sizing: border-box;
+}
+
+.socials__title {
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.socials__links {
+  font-size: 0;
+}
+
+.socials__link {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 3px;
+  background-image: linear-gradient(0deg, rgb(228,97,128) 0%, rgb(255,216,88) 100%);
+  background-repeat: no-repeat;
+
+  &:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-image: url("../img/spritesheet.png");
+    background-repeat: no-repeat;
+    content: "";
+  }
+
+  &--vk {
+    &:before {
+      width: 19px;
+      height: 11px;
+      background-position: -153px -80px;
+    }
+  }
+
+  &--instagram {
+    &:before {
+      width: 16px;
+      height: 16px;
+      background-position: -114px -33px;
+    }
+  }
+
+  &--fb {
+    &:before {
+      width: 9px;
+      height: 17px;
+      background-position: -95px -33px;
+    }
+  }
+
+  &--ok {
+    &:before {
+      width: 9px;
+      height: 15px;
+      background-position: -114px -59px;
+    }
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+
+}

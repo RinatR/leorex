@@ -10,40 +10,51 @@
   <div class="page-wrapper">
     <header class="page-header">
       <div class="page-header__top">
-        <!-- <div class="layout-center"> -->
-          <div class="page-header__logo">
-            <img src="img/logo.png" alt="Логотип">
+        <div class="page-header__logo">
+          <img src="img/logo.png" alt="Логотип">
+        </div>
+        <div class="page-header__phone">
+          <span class="page-header__phone-number">+7 (495) 120 99 71</span>
+          <a class="page-header__phone-order" href="#">Заказать звонок</a>
+          <a class="page-header__link page-header__link--search" href="#"></a>
+        </div>
+
+        <div class="page-header__account">
+          <div class="page-header__profile">
+            <a class="page-header__link page-header__link--profile" href="#"></a>
           </div>
-          <div class="page-header__phone">
-            <span class="page-header__phone-number">+7 (495) 120 99 71</span>
-            <a class="page-header__phone-order" href="#">Заказать звонок</a>
+          <div class="page-header__cart">
+           <a class="page-header__link page-header__link--cart" href="#"></a>
+           <span class="page-header__cart-count">2</span>
+           <span class="page-header__cart-sum">19 250 руб.</span>
           </div>
-        <!-- </div> -->
+        </div>
+
       </div>
       <div class="page-header__bottom">
-        <!-- <div class="layout-center"> -->
-          <nav class="main-menu">
-            <a href="#" class="main-menu__item">Каталог</a>
-            <a href="#" class="main-menu__item">Акции</a>
-            <a href="#" class="main-menu__item">Новости</a>
-            <a href="#" class="main-menu__item">Отзывы</a>
-            <a href="#" class="main-menu__item">Как сделать заказ</a>
-            <a href="#" class="main-menu__item">Оптовые продажи</a>
-            <a href="#" class="main-menu__item">Контакты</a>
-          </nav>
-        <!-- </div> -->
+        <nav class="main-menu">
+          <a href="#" class="main-menu__item">Каталог</a>
+          <a href="#" class="main-menu__item">Акции</a>
+          <a href="#" class="main-menu__item">Новости</a>
+          <a href="#" class="main-menu__item">Отзывы</a>
+          <a href="#" class="main-menu__item">Как сделать заказ</a>
+          <a href="#" class="main-menu__item">Оптовые продажи</a>
+          <a href="#" class="main-menu__item">Контакты</a>
+        </nav>
       </div>
     </header>
     <main class="page-content">
       <section class="promo">
         <div class="promo__inner">
-          <div class="promo__slider"></div>
+          <div class="promo__slider">
+
+          </div>
           <div class="product product--day">
             <span>Продукт дня</span>
             <div class="product__image">
               <img src="img/product-2.jpg" alt="Товар дня" width="200" height="200">
             </div>
-            <h2 class="product__name">Сыворотка для лица LEOREX,<sup>TM</sup>Up Lifting Serum 30 ml</h2>
+            <a class="product__name" href="#">Сыворотка для лица LEOREX<sup>TM</sup>Up Lifting Serum 30 ml</a>
             <div class="product__inner">
               <span class="product__price">5 350 руб.</span>
               <a class="product__order" href="#"></a>
@@ -66,7 +77,9 @@
         </div>
       </section>
       <section class="products-line">
-        <h2 class="products-line__title">Хиты продаж</h2>
+        <div class="products-line__title">
+          <h2>Хиты продаж</h2>
+        </div>
         <!-- <div class="layout-center"> -->
           <div class="products-line__list">
             <article class="product">
@@ -74,7 +87,7 @@
               <div class="product__image">
                 <img src="img/product-1.jpg" alt="Товар дня" width="200" height="200">
               </div>
-              <h2 class="product__name">Маска для лица LEOREX,<sup>TM</sup>Booster Active (10 sashet)</h2>
+              <a class="product__name" href="#">Маска для лица LEOREX<sup>TM</sup> Booster Active (10 sashet)</a>
               <div class="product__inner">
                 <span class="product__price">3 490 руб.</span>
                 <a class="product__order" href="#"></a>
@@ -86,7 +99,7 @@
               <div class="product__image">
                 <img src="img/product-2.jpg" alt="Товар дня" width="200" height="200">
               </div>
-              <h2 class="product__name">Сыворотка для лица LEOREX,<sup>TM</sup>Up Lifting Serum 30 ml</h2>
+              <a class="product__name" href="#">Сыворотка для лица LEOREX<sup>TM</sup> Up Lifting Serum 30 ml</a>
               <div class="product__inner">
                 <span class="product__price">5 350 руб.</span>
                 <a class="product__order" href="#"></a>
@@ -97,7 +110,7 @@
               <div class="product__image">
                 <img src="img/product-3.jpg" alt="Товар дня" width="200" height="200">
               </div>
-              <h2 class="product__name">Маска для шеи и зоны декольте LEOREX,<sup>TM</sup>Neck & Decollete (10 sashets)</h2>
+              <a class="product__name" href="#">Маска для шеи и зоны декольте LEOREX<sup>TM</sup> Neck & Decollete (10 sashets)</a>
               <div class="product__inner">
                 <span class="product__price">3 490 руб.</span>
                 <a class="product__order" href="#"></a>
@@ -108,7 +121,7 @@
               <div class="product__image">
                 <img src="img/product-4.jpg" alt="Товар дня" width="200" height="200">
               </div>
-              <h2 class="product__name">Маска для лица, возраст 50+ LEOREX,<sup>TM</sup>Booster Plus (10 sashets) </h2>
+              <a class="product__name" href="#">Маска для лица, возраст 50+ LEOREX<sup>TM</sup> Booster Plus (10 sashets) </a>
               <div class="product__inner">
                 <span class="product__price">3 490 руб.</span>
                 <a class="product__order" href="#"></a>
@@ -146,7 +159,9 @@
         </div>
       </section>
       <section class="products-line">
-        <h2 class="products-line__title">Антивозрастная линия</h2>
+        <div class="products-line__title">
+          <h2>Антивозрастная линия</h2>
+        </div>
         <div class="layout-center">
           <div class="products-line__list">
             <article class="product">
@@ -154,7 +169,7 @@
               <div class="product__image">
                 <img src="img/product-1.jpg" alt="Товар дня" width="200" height="200">
               </div>
-              <h2 class="product__name">Маска для лица LEOREX,<sup>TM</sup>Booster Active (10 sashet)</h2>
+              <a class="product__name" href="#">Маска для лица LEOREX<sup>TM</sup> Booster Active (10 sashet)</a>
               <div class="product__inner">
                 <span class="product__price">3 490 руб.</span>
                 <a class="product__order" href="#"></a>
@@ -166,7 +181,7 @@
               <div class="product__image">
                 <img src="img/product-2.jpg" alt="Товар дня" width="200" height="200">
               </div>
-              <h2 class="product__name">Сыворотка для лица LEOREX,<sup>TM</sup>Up Lifting Serum 30 ml</h2>
+              <a class="product__name" href="#">Сыворотка для лица LEOREX<sup>TM</sup> Up Lifting Serum 30 ml</a>
               <div class="product__inner">
                 <span class="product__price">5 350 руб.</span>
                 <a class="product__order" href="#"></a>
@@ -177,7 +192,7 @@
               <div class="product__image">
                 <img src="img/product-3.jpg" alt="Товар дня" width="200" height="200">
               </div>
-              <h2 class="product__name">Маска для шеи и зоны декольте LEOREX,<sup>TM</sup>Neck & Decollete (10 sashets)</h2>
+              <a class="product__name" href="#">Маска для шеи и зоны декольте LEOREX<sup>TM</sup> Neck & Decollete (10 sashets)</a>
               <div class="product__inner">
                 <span class="product__price">3 490 руб.</span>
                 <a class="product__order" href="#"></a>
@@ -188,7 +203,7 @@
               <div class="product__image">
                 <img src="img/product-4.jpg" alt="Товар дня" width="200" height="200">
               </div>
-              <h2 class="product__name">Маска для лица, возраст 50+ LEOREX,<sup>TM</sup>Booster Plus (10 sashets) </h2>
+              <a class="product__name" href="#">Маска для лица, возраст 50+ LEOREX<sup>TM</sup> Booster Plus (10 sashets) </a>
               <div class="product__inner">
                 <span class="product__price">3 490 руб.</span>
                 <a class="product__order" href="#"></a>
@@ -198,7 +213,9 @@
         </div>
       </section>
       <section class="products-line">
-        <h2 class="products-line__title">Подтягивающая линия</h2>
+        <div class="products-line__title">
+          <h2>Подтягивающая линия</h2>
+        </div>
         <div class="layout-center">
           <div class="products-line__list">
             <article class="product">
@@ -206,7 +223,7 @@
               <div class="product__image">
                 <img src="img/product-2.jpg" alt="Товар дня" width="200" height="200">
               </div>
-              <h2 class="product__name">Маска для лица LEOREX,<sup>TM</sup>Booster Active (10 sashet)</h2>
+              <a class="product__name" href="#">Маска для лица LEOREX<sup>TM</sup> Booster Active (10 sashet)</a>
               <div class="product__inner">
                 <span class="product__price">3 490 руб.</span>
                 <a class="product__order" href="#"></a>
@@ -218,7 +235,7 @@
               <div class="product__image">
                 <img src="img/product-3.jpg" alt="Товар дня" width="200" height="200">
               </div>
-              <h2 class="product__name">Сыворотка для лица LEOREX,<sup>TM</sup>Up Lifting Serum 30 ml</h2>
+              <a class="product__name" href="#">Сыворотка для лица LEOREX<sup>TM</sup> Up Lifting Serum 30 ml</a>
               <div class="product__inner">
                 <span class="product__price">5 350 руб.</span>
                 <a class="product__order" href="#"></a>
@@ -229,7 +246,7 @@
               <div class="product__image">
                 <img src="img/product-1.jpg" alt="Товар дня" width="200" height="200">
               </div>
-              <h2 class="product__name">Маска для шеи и зоны декольте LEOREX,<sup>TM</sup>Neck & Decollete (10 sashets)</h2>
+              <a class="product__name" href="#">Маска для шеи и зоны декольте LEOREX<sup>TM</sup> Neck & Decollete (10 sashets)</a>
               <div class="product__inner">
                 <span class="product__price">3 490 руб.</span>
                 <a class="product__order" href="#"></a>
@@ -240,7 +257,7 @@
               <div class="product__image">
                 <img src="img/product-4.jpg" alt="Товар дня" width="200" height="200">
               </div>
-              <h2 class="product__name">Маска для лица, возраст 50+ LEOREX,<sup>TM</sup>Booster Plus (10 sashets) </h2>
+              <a class="product__name" href="#">Маска для лица, возраст 50+ LEOREX<sup>TM</sup> Booster Plus (10 sashets) </a>
               <div class="product__inner">
                 <span class="product__price">3 490 руб.</span>
                 <a class="product__order" href="#"></a>
@@ -250,231 +267,296 @@
         </div>
       </section>
       <section class="products-line">
-        <h2 class="products-line__title">Золотая линия</h2>
-        <div class="layout-center">
-          <div class="products-line__list">
-            <article class="product">
-              <div class="product__label product__label--hit">ХИТ</div>
-              <div class="product__image">
-                <img src="img/product-1.jpg" alt="Товар дня" width="200" height="200">
-              </div>
-              <h2 class="product__name">Маска для лица LEOREX,<sup>TM</sup>Booster Active (10 sashet)</h2>
-              <div class="product__inner">
-                <span class="product__price">3 490 руб.</span>
-                <a class="product__order" href="#"></a>
-              </div>
-            </article>
-            <article class="product">
-              <div class="product__label product__label--hit">ХИТ</div>
-              <div class="product__label product__label--sale">-20%</div>
-              <div class="product__image">
-                <img src="img/product-2.jpg" alt="Товар дня" width="200" height="200">
-              </div>
-              <h2 class="product__name">Сыворотка для лица LEOREX,<sup>TM</sup>Up Lifting Serum 30 ml</h2>
-              <div class="product__inner">
-                <span class="product__price">5 350 руб.</span>
-                <a class="product__order" href="#"></a>
-              </div>
-            </article>
-            <article class="product">
-              <div class="product__label product__label--hit">ХИТ</div>
-              <div class="product__image">
-                <img src="img/product-3.jpg" alt="Товар дня" width="200" height="200">
-              </div>
-              <h2 class="product__name">Маска для шеи и зоны декольте LEOREX,<sup>TM</sup>Neck & Decollete (10 sashets)</h2>
-              <div class="product__inner">
-                <span class="product__price">3 490 руб.</span>
-                <a class="product__order" href="#"></a>
-              </div>
-            </article>
-            <article class="product">
-              <div class="product__label product__label--hit">ХИТ</div>
-              <div class="product__image">
-                <img src="img/product-4.jpg" alt="Товар дня" width="200" height="200">
-              </div>
-              <h2 class="product__name">Маска для лица, возраст 50+ LEOREX,<sup>TM</sup>Booster Plus (10 sashets) </h2>
-              <div class="product__inner">
-                <span class="product__price">3 490 руб.</span>
-                <a class="product__order" href="#"></a>
-              </div>
-            </article>
-          </div>
+        <div class="products-line__title">
+          <h2>Золотая линия</h2>
+        </div>
+        <div class="products-line__list">
+          <article class="product">
+            <div class="product__label product__label--hit">ХИТ</div>
+            <div class="product__image">
+              <img src="img/product-1.jpg" alt="Товар дня" width="200" height="200">
+            </div>
+            <a class="product__name" href="#">Маска для лица LEOREX<sup>TM</sup> Booster Active (10 sashet)</a>
+            <div class="product__inner">
+              <span class="product__price">3 490 руб.</span>
+              <a class="product__order" href="#"></a>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product__label product__label--hit">ХИТ</div>
+            <div class="product__label product__label--sale">-20%</div>
+            <div class="product__image">
+              <img src="img/product-2.jpg" alt="Товар дня" width="200" height="200">
+            </div>
+            <a class="product__name" href="#">Сыворотка для лица LEOREX<sup>TM</sup> Up Lifting Serum 30 ml</a>
+            <div class="product__inner">
+              <span class="product__price">5 350 руб.</span>
+              <a class="product__order" href="#"></a>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product__label product__label--hit">ХИТ</div>
+            <div class="product__image">
+              <img src="img/product-3.jpg" alt="Товар дня" width="200" height="200">
+            </div>
+            <a class="product__name" href="#">Маска для шеи и зоны декольте LEOREX<sup>TM</sup> Neck & Decollete (10 sashets)</a>
+            <div class="product__inner">
+              <span class="product__price">3 490 руб.</span>
+              <a class="product__order" href="#"></a>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product__label product__label--hit">ХИТ</div>
+            <div class="product__image">
+              <img src="img/product-4.jpg" alt="Товар дня" width="200" height="200">
+            </div>
+            <a class="product__name" href="#">Маска для лица, возраст 50+ LEOREX<sup>TM</sup> Booster Plus (10 sashets)</a>
+            <div class="product__inner">
+              <span class="product__price">3 490 руб.</span>
+              <a class="product__order" href="#"></a>
+            </div>
+          </article>
         </div>
       </section>
       <section class="products-line">
-        <h2 class="products-line__title">Линия проблемной кожи</h2>
-        <div class="layout-center">
-          <div class="products-line__list">
-            <article class="product">
-              <div class="product__label product__label--hit">ХИТ</div>
-              <div class="product__image">
-                <img src="img/product-2.jpg" alt="Товар дня" width="200" height="200">
-              </div>
-              <h2 class="product__name">Маска для лица LEOREX,<sup>TM</sup>Booster Active (10 sashet)</h2>
-              <div class="product__inner">
-                <span class="product__price">3 490 руб.</span>
-                <a class="product__order" href="#"></a>
-              </div>
-            </article>
-            <article class="product">
-              <div class="product__label product__label--hit">ХИТ</div>
-              <div class="product__label product__label--sale">-20%</div>
-              <div class="product__image">
-                <img src="img/product-3.jpg" alt="Товар дня" width="200" height="200">
-              </div>
-              <h2 class="product__name">Сыворотка для лица LEOREX,<sup>TM</sup>Up Lifting Serum 30 ml</h2>
-              <div class="product__inner">
-                <span class="product__price">5 350 руб.</span>
-                <a class="product__order" href="#"></a>
-              </div>
-            </article>
-            <article class="product">
-              <div class="product__label product__label--hit">ХИТ</div>
-              <div class="product__image">
-                <img src="img/product-1.jpg" alt="Товар дня" width="200" height="200">
-              </div>
-              <h2 class="product__name">Маска для шеи и зоны декольте LEOREX,<sup>TM</sup>Neck & Decollete (10 sashets)</h2>
-              <div class="product__inner">
-                <span class="product__price">3 490 руб.</span>
-                <a class="product__order" href="#"></a>
-              </div>
-            </article>
-            <article class="product">
-              <div class="product__label product__label--hit">ХИТ</div>
-              <div class="product__image">
-                <img src="img/product-4.jpg" alt="Товар дня" width="200" height="200">
-              </div>
-              <h2 class="product__name">Маска для лица, возраст 50+ LEOREX,<sup>TM</sup>Booster Plus (10 sashets) </h2>
-              <div class="product__inner">
-                <span class="product__price">3 490 руб.</span>
-                <a class="product__order" href="#"></a>
-              </div>
-            </article>
-          </div>
+        <div class="products-line__title">
+          <h2>Линия проблемной кожи</h2>
+        </div>
+        <div class="products-line__list">
+          <article class="product">
+            <div class="product__label product__label--hit">ХИТ</div>
+            <div class="product__image">
+              <img src="img/product-2.jpg" alt="Товар дня" width="200" height="200">
+            </div>
+            <a class="product__name" href="#">Маска для лица LEOREX<sup>TM</sup> Booster Active (10 sashet)</a>
+            <div class="product__inner">
+              <span class="product__price">3 490 руб.</span>
+              <a class="product__order" href="#"></a>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product__label product__label--hit">ХИТ</div>
+            <div class="product__label product__label--sale">-20%</div>
+            <div class="product__image">
+              <img src="img/product-3.jpg" alt="Товар дня" width="200" height="200">
+            </div>
+            <a class="product__name" href="#">Сыворотка для лица LEOREX<sup>TM</sup> Up Lifting Serum 30 ml</a>
+            <div class="product__inner">
+              <span class="product__price">5 350 руб.</span>
+              <a class="product__order" href="#"></a>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product__label product__label--hit">ХИТ</div>
+            <div class="product__image">
+              <img src="img/product-1.jpg" alt="Товар дня" width="200" height="200">
+            </div>
+            <a class="product__name" href="#">Маска для шеи и зоны декольте LEOREX<sup>TM</sup> Neck & Decollete (10 sashets)</a>
+            <div class="product__inner">
+              <span class="product__price">3 490 руб.</span>
+              <a class="product__order" href="#"></a>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product__label product__label--hit">ХИТ</div>
+            <div class="product__image">
+              <img src="img/product-4.jpg" alt="Товар дня" width="200" height="200">
+            </div>
+            <a class="product__name" href="#">Маска для лица, возраст 50+ LEOREX<sup>TM</sup> Booster Plus (10 sashets) </a>
+            <div class="product__inner">
+              <span class="product__price">3 490 руб.</span>
+              <a class="product__order" href="#"></a>
+            </div>
+          </article>
         </div>
       </section>
       <section class="products-line">
-        <h2 class="products-line__title">Линия для мужчин</h2>
-        <div class="layout-center">
-          <div class="products-line__list">
-            <article class="product">
-              <div class="product__label product__label--hit">ХИТ</div>
-              <div class="product__image">
-                <img src="img/product-1.jpg" alt="Товар дня" width="200" height="200">
-              </div>
-              <h2 class="product__name">Маска для лица LEOREX,<sup>TM</sup>Booster Active (10 sashet)</h2>
-              <div class="product__inner">
-                <span class="product__price">3 490 руб.</span>
-                <a class="product__order" href="#"></a>
-              </div>
-            </article>
-            <article class="product">
-              <div class="product__label product__label--hit">ХИТ</div>
-              <div class="product__label product__label--sale">-20%</div>
-              <div class="product__image">
-                <img src="img/product-2.jpg" alt="Товар дня" width="200" height="200">
-              </div>
-              <h2 class="product__name">Сыворотка для лица LEOREX,<sup>TM</sup>Up Lifting Serum 30 ml</h2>
-              <div class="product__inner">
-                <span class="product__price">5 350 руб.</span>
-                <a class="product__order" href="#"></a>
-              </div>
-            </article>
-            <article class="product">
-              <div class="product__label product__label--hit">ХИТ</div>
-              <div class="product__image">
-                <img src="img/product-3.jpg" alt="Товар дня" width="200" height="200">
-              </div>
-              <h2 class="product__name">Маска для шеи и зоны декольте LEOREX,<sup>TM</sup>Neck & Decollete (10 sashets)</h2>
-              <div class="product__inner">
-                <span class="product__price">3 490 руб.</span>
-                <a class="product__order" href="#"></a>
-              </div>
-            </article>
-            <article class="product">
-              <div class="product__label product__label--hit">ХИТ</div>
-              <div class="product__image">
-                <img src="img/product-4.jpg" alt="Товар дня" width="200" height="200">
-              </div>
-              <h2 class="product__name">Маска для лица, возраст 50+ LEOREX,<sup>TM</sup>Booster Plus (10 sashets) </h2>
-              <div class="product__inner">
-                <span class="product__price">3 490 руб.</span>
-                <a class="product__order" href="#"></a>
-              </div>
-            </article>
-          </div>
+        <div class="products-line__title">
+          <h2 >Линия для мужчин</h2>
+        </div>
+        <div class="products-line__list">
+          <article class="product">
+            <div class="product__label product__label--hit">ХИТ</div>
+            <div class="product__image">
+              <img src="img/product-1.jpg" alt="Товар дня" width="200" height="200">
+            </div>
+            <a class="product__name" href="#">Маска для лица LEOREX<sup>TM</sup> Booster Active (10 sashet)</a>
+            <div class="product__inner">
+              <span class="product__price">3 490 руб.</span>
+              <a class="product__order" href="#"></a>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product__label product__label--hit">ХИТ</div>
+            <div class="product__label product__label--sale">-20%</div>
+            <div class="product__image">
+              <img src="img/product-2.jpg" alt="Товар дня" width="200" height="200">
+            </div>
+            <a class="product__name" href="#">Сыворотка для лица LEOREX<sup>TM</sup> Up Lifting Serum 30 ml</a>
+            <div class="product__inner">
+              <span class="product__price">5 350 руб.</span>
+              <a class="product__order" href="#"></a>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product__label product__label--hit">ХИТ</div>
+            <div class="product__image">
+              <img src="img/product-3.jpg" alt="Товар дня" width="200" height="200">
+            </div>
+            <a class="product__name" href="#">Маска для шеи и зоны декольте LEOREX<sup>TM</sup> Neck & Decollete (10 sashets)</a>
+            <div class="product__inner">
+              <span class="product__price">3 490 руб.</span>
+              <a class="product__order" href="#"></a>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product__label product__label--hit">ХИТ</div>
+            <div class="product__image">
+              <img src="img/product-4.jpg" alt="Товар дня" width="200" height="200">
+            </div>
+            <a class="product__name" href="#">Маска для лица, возраст 50+ LEOREX<sup>TM</sup> Booster Plus (10 sashets)</a>
+            <div class="product__inner">
+              <span class="product__price">3 490 руб.</span>
+              <a class="product__order" href="#"></a>
+            </div>
+          </article>
         </div>
       </section>
       <section class="reviews">
-        <h2 class="section-title">Отзывы</h2>
-        <div class="reviews_slider"></div>
+        <div class="section-inner">
+          <h2 class="section-title">Отзывы</h2>
+          <div class="reviews__slider">
+            <div class="reviews__slides">
+              <div class="reviews__slide">
+                <div class="reviews__slide-top">
+                  <h3 class="reviews__title">Сыворотка для лица LEOREX<sup>TM</sup> Up-Lifting Serum 30ml</h3>
+                  <div class="reviews__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique impedit, neque, obcaecati, inventore eligendi vero ut natus eum rem sunt magnam? Omnis magni quis enim facilis id excepturi eligendi quam.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis cupiditate magnam obcaecati dolor. Vel dolorum cupiditate nobis, aut et animi culpa, aspernatur sapiente dolore unde, impedit commodi accusantium adipisci eaque.</p>
+                  </div>
+                </div>
+                <div class="reviews__slide-bottom">
+                  <div class="reviews__info">
+                    <div class="reviews__author">
+                      <div class="reviews__author-avatar">
+                        <img src="img/review-avatar.png" alt="">
+                      </div>
+                      <span class="reviews__author-name"></span>
+                      <span class="reviews__date">12 февраля 2017</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="news">
         <h2 class="section-title">Новости</h2>
         <div class="news__list">
           <div class="news__item">
             <span class="news__date">13 февраля 2017</span>
-            <h3 class="news__title">Уход за чувствительной кожей</h3>
+            <a class="news__title" href="#">Уход за чувствительной кожей</a>
             <p class="news__text">Основные советы по уходу за чувствительной кожей</p>
           </div>
           <div class="news__item">
             <span class="news__date">13 февраля 2017</span>
-            <h3 class="news__title">Уход за зрелой кожей</h3>
+            <a class="news__title" href="#">Уход за зрелой кожей</a>
             <p class="news__text">Правильный уход за зрелой кожей лица. Характеристика зрелой кожи.
             Как предотвратить старение.</p>
           </div>
           <div class="news__item">
             <span class="news__date">13 февраля 2017</span>
-            <h3 class="news__title">Уход за жирной кожей лица</h3>
+            <a class="news__title" href="#">Уход за жирной кожей лица</a>
             <p class="news__text">Рекомендации по уходу за жирным типом кожи лица. Советы и правила от дерматологов</p>
           </div>
         </div>
-        <div class="news__widget"></div>
+        <div class="news__widget">
+          <img src="img/social-widget.png" alt="">
+        </div>
       </section>
       <section class="subscribe">
-        <h2 class="section-title section-title--smaller">Подписаться на скидки и акции</h2>
-        <form class="subscribe-form" action="/echo" method="post">
-          <input type="email" placeholder="Ваш E-mail">
-          <input class="btn" type="submit" value="Подписаться">
-        </form>
+        <div class="section-inner">
+          <h2 class="section-title">Подписаться <br> на скидки и акции</h2>
+          <form class="subscribe-form" action="/echo" method="post">
+            <input class="subscribe-form__input" type="email" placeholder="Ваш E-mail" required>
+            <input class="btn" type="submit" value="Подписаться">
+          </form>
+        </div>
       </section>
       <section class="about">
-        <div class="about__inner">
-          <article class="about__article">
-            <h2>Израильская нанокосметика</h2>
-            <p>Для каждой женщины внешний вид - это ее визитная карточка, поэтому для каждой представительницы
-              прекрасного пола так важно найти косметические средства, идеально подходящие под тип ее кожи.
-              В ритме современной жизни - это особенно значимо, ведь нужно выглядеть всегда на миллион.
-            </p>
-            <p> Статистика показывает, что израильская косметика все больше заслуживает внимания женщин.
-              Это неспроста, ведь Израиль -страна, которая постоянно развивает технологии производства косметики,
-              непрерывно совершенствует ее состав, используя самые полезные и очищенные ингредиенты.
-            </p>
-            <p>Одним из лидеров высококачественной косметики Израиля является линия Leorex.</p>
-          </article>
-          <article class="about__article">
-            <h2>Нанокрема Leorex</h2>
-            <p>Среди продуктов косметики Леорекс, вы легко подберете крем, который вам наиболее подходит: дневной или ночной крем,
-            сыворотку.</p>
-            <p>Нанокосметика для лица обладает хорошим качеством - эффект от ее применения заметен сразу. А при регулярном применении,
-            оказывает длительное воздействие: коже легче противостоять окружающему негативному влиянию.</p>
-            <p>Израильская косметика Леорекс имеет обогащенный состав: вся продукция содержит натуральные масла и витамины, которые
-            благотворно сказываются на внешнем виде кожи. Морщинки разглаживаются уже после первого применения, угревая сыпь становится
-            менее заметной.</p>
-          </article>
+        <div class="section-inner">
+          <div class="about__inner">
+            <article class="about__article">
+              <h2>Израильская нанокосметика</h2>
+              <p>Для каждой женщины внешний вид - это ее визитная карточка, поэтому для каждой представительницы
+                прекрасного пола так важно найти косметические средства, идеально подходящие под тип ее кожи.
+                В ритме современной жизни - это особенно значимо, ведь нужно выглядеть всегда на миллион.
+              </p>
+              <p> Статистика показывает, что израильская косметика все больше заслуживает внимания женщин.
+                Это неспроста, ведь Израиль -страна, которая постоянно развивает технологии производства косметики,
+                непрерывно совершенствует ее состав, используя самые полезные и очищенные ингредиенты.
+              </p>
+              <p>Одним из лидеров высококачественной косметики Израиля является линия Leorex.</p>
+            </article>
+            <article class="about__article">
+              <h2>Нанокрема Leorex</h2>
+              <p>Среди продуктов косметики Леорекс, вы легко подберете крем, который вам наиболее подходит: дневной или ночной крем,
+              сыворотку.</p>
+              <p>Нанокосметика для лица обладает хорошим качеством - эффект от ее применения заметен сразу. А при регулярном применении,
+              оказывает длительное воздействие: коже легче противостоять окружающему негативному влиянию.</p>
+              <p>Израильская косметика Леорекс имеет обогащенный состав: вся продукция содержит натуральные масла и витамины, которые
+              благотворно сказываются на внешнем виде кожи. Морщинки разглаживаются уже после первого применения, угревая сыпь становится
+              менее заметной.</p>
+            </article>
+          </div>
+          <a class="btn" href="#">Читать еще <i></i></a>
         </div>
-        <a class="btn" href="#">Читать еще</a>
       </section>
     </main>
     <footer class="page-footer">
       <div class="page-footer__top">
-        <div class="page-footer__menu"></div>
-        <div class="page-footer__phone"></div>
-        <div class="socials"></div>
+        <div class="page-footer__menu">
+          <ul class="page-footer__menu-list">
+            <li class="page-footer__menu-item"><a href="#">Каталог</a></li>
+            <li class="page-footer__menu-item"><a href="#">Антивозрастная линия</a></li>
+            <li class="page-footer__menu-item"><a href="#">Акции</a></li>
+            <li class="page-footer__menu-item"><a href="#">Подтягивающая линия</a></li>
+            <li class="page-footer__menu-item"><a href="#">Новости</a></li>
+            <li class="page-footer__menu-item"><a href="#">Золотая серия</a></li>
+            <li class="page-footer__menu-item"><a href="#">Отзывы</a></li>
+            <li class="page-footer__menu-item"><a href="#">Линия для проблемной кожи</a></li>
+            <li class="page-footer__menu-item"><a href="#">Как сделать заказ</a></li>
+            <li class="page-footer__menu-item"><a href="#">Линия для мужчин</a></li>
+            <li class="page-footer__menu-item"><a href="#">Оптовые продажи</a></li>
+          </ul>
+        </div>
+        <div class="page-footer__phone">
+          <span class="page-footer__phone-number">+7 (495) 120 99 71</span>
+          <span class="page-footer__phone-number">+7 (499) 643 44 18</span>
+          <a class="page-footer__phone-order" href="#">Заказать звонок</a>
+        </div>
+        <div class="socials">
+          <span class="socials__title">Присоединяйтесь</span>
+          <div class="socials__links">
+            <a href="#" class="socials__link socials__link--vk"></a>
+            <a href="#" class="socials__link socials__link--instagram"></a>
+            <a href="#" class="socials__link socials__link--fb"></a>
+            <a href="#" class="socials__link socials__link--ok"></a>
+          </div>
+        </div>
       </div>
       <div class="page-footer__bottom">
-        <div class="page-footer__copyright"></div>
-        <div class="page-footer__design"></div>
+        <div class="page-footer__copyright">
+          <p class="page-footer__text">LEOREX-Russia, 2016</p>
+          <p class="page-footer__text">Официальный дистрибьютор косметики Leorex в России</p>
+        </div>
+        <div class="page-footer__design">
+          <span class="page-footer__text">
+            Разработка сайта
+          </span>
+          <a class="page-footer__design-link" href="#"></a>
+        </div>
       </div>
     </footer>
   </div>

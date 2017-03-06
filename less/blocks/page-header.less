@@ -8,28 +8,120 @@
 
 .page-header__logo {
   width: 277px;
-  margin-right: 90px;
 }
 
 .page-header__phone {
   display: flex;
   align-items: center;
+  width: 554px;
+  padding-left: 90px;
+  box-sizing: border-box;
 }
 
 .page-header__phone-number {
-  margin-right: 28px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 33px;
   font-size: 24px;
   line-height: 1.2;
   text-transform: uppercase;
 }
 
 .page-header__phone-order {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
   font-size: 14px;
   line-height: 1.2;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1.05px;
   color: #48729e;
+}
+
+.page-header__account {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 279px;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+
+.page-header__profile {
+  width: 30px;
+  margin-right: 38px;
+}
+
+.page-header__search {
+  padding-left: 30px;
+}
+
+.page-header__link {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+
+  &:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("../img/spritesheet.png");
+    background-repeat: no-repeat;
+    content: "";
+  }
+
+  &--search {
+    &:before {
+      width: 24px;
+      height: 24px;
+      background-position: -145px -5px;
+    }
+  }
+
+  &--profile {
+
+    &:before {
+      width: 25px;
+      height: 24px;
+      background-position: -5px -132px;
+    }
+  }
+
+  &--cart {
+    margin-right: 48px;
+    &:before {
+      width: 24px;
+      height: 31px;
+      background-position: -140px -39px;
+    }
+  }
+}
+
+.page-header__cart {
+  position: relative;
+}
+
+.page-header__cart-sum {
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.page-header__cart-count {
+  position: absolute;
+  top: 50%;
+  left: 17px;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50%;
+  background-image: linear-gradient(0deg, rgb(228,97,128) 0%, rgb(255,216,88) 100%);
 }
 
 .page-header__bottom {

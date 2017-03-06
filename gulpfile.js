@@ -5,8 +5,9 @@ var less = require("gulp-less");
 var plumber = require("gulp-plumber");
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
+var htmlmin = require("gulp-htmlmin");
 var server = require("browser-sync").create();
-var htmlmin = require('gulp-htmlmin');
+
 
 
 gulp.task("style", function() {

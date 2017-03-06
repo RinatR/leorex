@@ -26,11 +26,54 @@
 }
 
 .promo__features-item {
+  position: relative;
   width: 25%;
   padding: 34px 0;
   padding-left: 95px;
   box-sizing: border-box;
   background-color: @color-secondary;
+
+  &:before {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translate(-50%, -50%);
+    background-image: url("../img/spritesheet.png");
+    content: "";
+  }
+
+  &:first-child {
+    &:before {
+      width: 42px;
+      height: 30px;
+      background-position: -5px -33px;
+    }
+  }
+
+  &:nth-child(2) {
+    &:before {
+      width: 40px;
+      height: 38px;
+      background-position: -27px -84px;
+    }
+  }
+
+  &:nth-child(3) {
+    &:before {
+      width: 38px;
+      height: 38px;
+      background-position: -105px -84px;
+    }
+  }
+
+  &:last-child {
+    &:before {
+      width: 38px;
+      height: 38px;
+      background-position: -40px -132px;
+    }
+  }
+
 }
 
 .promo__features-title {
