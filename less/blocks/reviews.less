@@ -1,6 +1,81 @@
 .reviews {
   padding: 50px 0;
+
   background-color: #ffd858;
 }
 
+.reviews__slider {
+  margin: 0 50px;
+}
 
+.reviews__slide-content {
+  padding: 30px 40px;
+  background-image: url("../img/review-rect.png");
+  height: 292px;
+  box-sizing: border-box;
+}
+
+.reviews__title {
+  margin-bottom: 30px;
+  font-size: @font-size-base;
+  line-height: @line-height-base;
+  color: @color-base;
+}
+
+.reviews__text {
+  font-size: @font-size-base;
+  line-height: 24px;
+  font-weight: 300;
+
+  p {
+    margin-bottom: 30px;
+  }
+}
+
+.reviews__info {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+
+  .btn {
+    width: 246px;
+    margin-left: auto;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #e56280;
+  }
+}
+
+.reviews__author {
+  display: flex;
+  align-items: center;
+}
+
+.reviews__author-avatar {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  padding: 9px;
+  margin-right: 33px;
+  box-sizing: border-box;
+}
+
+.reviews__author-info {
+  span {
+    display: block;
+  }
+}
+
+.reviews__author-name {
+  font-size: @font-size-base;
+  line-height: 30px;
+}
+
+.reviews__date {
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 1.05px;
+  text-transform: uppercase;
+  color: #ae9237;
+}
