@@ -10,13 +10,18 @@
     "gulp-less": "3.3.0",
     "gulp-plumber": "1.1.0",
     "gulp-postcss": "6.2.0",
+    "gulp-csso": "2.0.0",
+    "gulp-rename": "1.2.2",
     "gulp-htmlmin": "latest",
+    "gulp-imagemin": "3.0.3",
+    "run-sequence": "1.2.2",
+    "del": "2.2.2",
     "@htmlacademy/editorconfig-cli": "0.1.x"
   },
   "scripts": {
     "test": "editorconfig-cli",
-    "build": "gulp style",
-    "start": "gulp serve"
+    "build": "gulp build",
+    "start": "npm run build && gulp serve"
   },
   "editorconfig-cli": [
     "*.html",

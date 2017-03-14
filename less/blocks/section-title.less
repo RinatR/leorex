@@ -1,7 +1,26 @@
 .section-title {
+  position: relative;
+  z-index: 2;
+  display: inline;
+  padding: 0 30px;
+  padding-right: 72px;
+  margin-left: 405px;
   font-size: 26px;
   line-height: 1.2;
   font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 1.05px;
+  background-color: #ffffff;
+
+  &:after {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 18px;
+    background-image: url("../img/spritesheet.png");
+    background-repeat: no-repeat;
+    background-position: -110px -5px;
+    content: "";
+  }
 }

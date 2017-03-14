@@ -47,7 +47,27 @@
       <section class="promo">
         <div class="promo__inner">
           <div class="promo__slider">
-
+            <input type="radio" id="promo-btn-1" name="promo-toggle" checked>
+            <input type="radio" id="promo-btn-2" name="promo-toggle">
+            <input type="radio" id="promo-btn-3" name="promo-toggle">
+            <div class="promo__slider-controls">
+              <label class="promo__slider-control" for="promo-btn-1"></label>
+              <label class="promo__slider-control" for="promo-btn-2"></label>
+              <label class="promo__slider-control" for="promo-btn-3"></label>
+            </div>
+            <div class="promo__slider-inner">
+              <div class="promo__slides">
+                <div class="promo__slide">
+                  <h2 class="promo__slide-title">Косметика <br>премиум-класса <br>из Израиля</h2>
+                </div>
+                <div class="promo__slide">
+                  <h2 class="promo__slide-title">Косметика <br>премиум-класса <br>из Казахстана</h2>
+                </div>
+                <div class="promo__slide">
+                  <h2 class="promo__slide-title">Косметика <br>премиум-класса <br>из Катманду</h2>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="product product--day">
             <span>Продукт дня</span>
@@ -78,9 +98,8 @@
       </section>
       <section class="products-line">
         <div class="products-line__title">
-          <h2>Хиты продаж</h2>
+          <h2 class="section-title">Хиты продаж</h2>
         </div>
-
           <div class="products-line__list">
             <article class="product">
               <div class="product__label product__label--hit">ХИТ</div>
@@ -160,7 +179,7 @@
       </section>
       <section class="products-line">
         <div class="products-line__title">
-          <h2>Антивозрастная линия</h2>
+          <h2 class="section-title">Антивозрастная линия</h2>
         </div>
         <div class="layout-center">
           <div class="products-line__list">
@@ -214,7 +233,7 @@
       </section>
       <section class="products-line">
         <div class="products-line__title">
-          <h2>Подтягивающая линия</h2>
+          <h2 class="section-title">Подтягивающая линия</h2>
         </div>
         <div class="layout-center">
           <div class="products-line__list">
@@ -268,7 +287,7 @@
       </section>
       <section class="products-line">
         <div class="products-line__title">
-          <h2>Золотая линия</h2>
+          <h2 class="section-title">Золотая линия</h2>
         </div>
         <div class="products-line__list">
           <article class="product">
@@ -320,7 +339,7 @@
       </section>
       <section class="products-line">
         <div class="products-line__title">
-          <h2>Линия проблемной кожи</h2>
+          <h2 class="section-title">Линия проблемной кожи</h2>
         </div>
         <div class="products-line__list">
           <article class="product">
@@ -372,7 +391,7 @@
       </section>
       <section class="products-line">
         <div class="products-line__title">
-          <h2 >Линия для мужчин</h2>
+          <h2 class="section-title">Линия для мужчин</h2>
         </div>
         <div class="products-line__list">
           <article class="product">
@@ -426,27 +445,56 @@
         <div class="section-inner">
           <h2 class="section-title">Отзывы</h2>
           <div class="reviews__slider">
-            <div class="reviews__slides">
-              <div class="reviews__slide">
-                <div class="reviews__slide-content">
-                  <h3 class="reviews__title">Сыворотка для лица LEOREX<sup>TM</sup> Up-Lifting Serum 30ml</h3>
-                  <div class="reviews__text">
-                    <p>Неожиданно для себя нашла удобную альтернативу нескольким питательным и ночным кремам одновременно. Зимой кожа становится неприятно сухой и шершавой, часто на руках и щиколотках появляются даже покраснения и шелушение.</p>
-                    <p>Обычно я спасаюсь ультрапитательными масляными кремами того же самого Body Sop, Nivea, Natural Organica и другими. Один для лица, второй для рук, третий для тела и пр. Этот крем в громадном 200-мл флаконе купила в интернет-аптеке, предварительно изучив много отзывов. В большинстве - положительные и половина из них не только от мам владельцев</p>
+            <input type="radio" id="review-btn-1" name="review-toggle">
+            <input type="radio" id="review-btn-2" name="review-toggle">
+            <label class="reviews__slider-toggle reviews__slider-toggle--left" for="review-btn-1"></label>
+            <label class="reviews__slider-toggle reviews__slider-toggle--right" for="review-btn-2"></label>
+            <div class="reviews__slider-inner">
+              <div class="reviews__slides">
+                <div class="reviews__slide">
+                  <div class="reviews__slide-content">
+                    <h3 class="reviews__title">Сыворотка для лица LEOREX<sup>TM</sup> Up-Lifting Serum 30ml</h3>
+                    <div class="reviews__text">
+                      <p>Неожиданно для себя нашла удобную альтернативу нескольким питательным и ночным кремам одновременно. Зимой кожа становится неприятно сухой и шершавой, часто на руках и щиколотках появляются даже покраснения и шелушение.</p>
+                      <p>Обычно я спасаюсь ультрапитательными масляными кремами того же самого Body Sop, Nivea, Natural Organica и другими. Один для лица, второй для рук, третий для тела и пр. Этот крем в громадном 200-мл флаконе купила в интернет-аптеке, предварительно изучив много отзывов. В большинстве - положительные и половина из них не только от мам владельцев</p>
+                    </div>
+                  </div>
+                  <div class="reviews__slide-additional">
+                    <div class="reviews__info">
+                      <div class="reviews__author">
+                        <div class="reviews__author-avatar">
+                          <img src="img/review-avatar.png" alt="">
+                        </div>
+                        <div class="reviews__author-info">
+                          <span class="reviews__author-name">Мария</span>
+                          <span class="reviews__date">12 февраля 2017</span>
+                        </div>
+                      </div>
+                      <a class="btn" href="#">Смотреть все отзывы</a>
+                    </div>
                   </div>
                 </div>
-                <div class="reviews__slide-additional">
-                  <div class="reviews__info">
-                    <div class="reviews__author">
-                      <div class="reviews__author-avatar">
-                        <img src="img/review-avatar.png" alt="">
-                      </div>
-                      <div class="reviews__author-info">
-                        <span class="reviews__author-name">Мария</span>
-                        <span class="reviews__date">12 февраля 2017</span>
-                      </div>
+                <div class="reviews__slide">
+                  <div class="reviews__slide-content">
+                    <h3 class="reviews__title">Маска для шеи и зоны декольте LEOREX<sup>TM</sup> Neck & Decollete (10 sashets)</h3>
+                    <div class="reviews__text">
+                      <p>Использую эту маску уже 30 лет. Все нравится. Все круто</p>
+                      <p>Обычно я спасаюсь ультрапитательными масляными кремами того же самого Body Sop, Nivea, Natural Organica и другими. Один для лица, второй для рук, третий для тела и пр. Этот крем в громадном 200-мл флаконе купила в интернет-аптеке, предварительно изучив много отзывов. В большинстве - положительные и половина из них не только от мам владельцев</p>
                     </div>
-                    <a class="btn" href="#">Смотреть все отзывы</a>
+                  </div>
+                  <div class="reviews__slide-additional">
+                    <div class="reviews__info">
+                      <div class="reviews__author">
+                        <div class="reviews__author-avatar">
+                          <img src="img/review-avatar.png" alt="">
+                        </div>
+                        <div class="reviews__author-info">
+                          <span class="reviews__author-name">Наташа</span>
+                          <span class="reviews__date">13 февраля 2017</span>
+                        </div>
+                      </div>
+                      <a class="btn" href="#">Смотреть все отзывы</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -456,31 +504,33 @@
       </section>
       <section class="news">
         <h2 class="section-title">Новости</h2>
-        <div class="news__list">
-          <div class="news__item">
-            <span class="news__date">13 февраля 2017</span>
-            <a class="news__title" href="#">Уход за чувствительной кожей</a>
-            <p class="news__text">Основные советы по уходу за чувствительной кожей</p>
+        <div class="section-inner">
+          <div class="news__list">
+            <div class="news__item">
+              <span class="news__date">13 февраля 2017</span>
+              <a class="news__title" href="#">Уход за чувствительной кожей</a>
+              <p class="news__text">Основные советы по уходу за чувствительной кожей</p>
+            </div>
+            <div class="news__item">
+              <span class="news__date">13 февраля 2017</span>
+              <a class="news__title" href="#">Уход за зрелой кожей</a>
+              <p class="news__text">Правильный уход за зрелой кожей лица. Характеристика зрелой кожи.
+              Как предотвратить старение.</p>
+            </div>
+            <div class="news__item">
+              <span class="news__date">13 февраля 2017</span>
+              <a class="news__title" href="#">Уход за жирной кожей лица</a>
+              <p class="news__text">Рекомендации по уходу за жирным типом кожи лица. Советы и правила от дерматологов</p>
+            </div>
           </div>
-          <div class="news__item">
-            <span class="news__date">13 февраля 2017</span>
-            <a class="news__title" href="#">Уход за зрелой кожей</a>
-            <p class="news__text">Правильный уход за зрелой кожей лица. Характеристика зрелой кожи.
-            Как предотвратить старение.</p>
+          <div class="news__widget">
+            <img src="img/social-widget.png" alt="Виджет Вконтакте" width="276" height="273">
           </div>
-          <div class="news__item">
-            <span class="news__date">13 февраля 2017</span>
-            <a class="news__title" href="#">Уход за жирной кожей лица</a>
-            <p class="news__text">Рекомендации по уходу за жирным типом кожи лица. Советы и правила от дерматологов</p>
-          </div>
-        </div>
-        <div class="news__widget">
-          <img src="img/social-widget.png" alt="Виджет Вконтакте" width="276" height="273">
         </div>
       </section>
       <section class="subscribe">
         <div class="section-inner">
-          <h2 class="section-title">Подписаться <br> на скидки и акции</h2>
+          <h2>Подписаться <br> на скидки и акции</h2>
           <form class="subscribe-form" action="/echo" method="post">
             <input class="subscribe-form__input" type="email" placeholder="Ваш E-mail" required>
             <input class="btn" type="submit" value="Подписаться">
