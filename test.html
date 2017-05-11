@@ -12,6 +12,7 @@
 var canvas, stage, exportRoot;
 function init() {
 	canvas = document.getElementById("canvas");
+  var lib, images, createjs, ss;
 	images = images||{};
 	var loader = new createjs.LoadQueue(false);
 	loader.addEventListener("fileload", handleFileLoad);
